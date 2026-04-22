@@ -18,7 +18,7 @@ export default function FeaturedProductsSection() {
               <img
                 src="/UVACO_products.png"
                 alt="UVACO Products Appearance"
-                className="w-full h-auto object-contain img-gradient-blend"
+                className="w-full h-auto object-contain"
               />
             </div>
             <p className="text-emerald-800 font-bold text-xl tracking-wide">
@@ -32,7 +32,7 @@ export default function FeaturedProductsSection() {
               <img
                 src="/UVACO_products_list.png"
                 alt="UVACO Products List Info"
-                className="w-full h-auto object-contain img-gradient-blend"
+                className="w-full h-auto object-contain"
               />
             </div>
             <p className="text-emerald-800 font-bold text-xl tracking-wide">
