@@ -124,8 +124,9 @@
     font-size: 0.9rem;
     color: white;
     text-decoration: none;
-    /* 桌面版：固定寬度讓兩顆按鈕等寬 */
-    width: 168px;
+    /* 桌面版：固定寬度讓兩顆按鈕等寬，white-space 防止換行 */
+    width: 220px;
+    white-space: nowrap;
   }
 
   .float-btn:hover {
