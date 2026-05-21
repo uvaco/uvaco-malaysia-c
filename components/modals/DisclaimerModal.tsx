@@ -30,12 +30,12 @@ export default function DisclaimerModal() {
           <p className="font-bold text-emerald-800 text-center">
             👉{' '}
             <a
-              href="https://www.uvaco.com.tw/"
+              href="https://www.uvaco.com.my/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline decoration-2 underline-offset-4"
             >
-              UVACO 官方網站(uvaco.com.tw)
+              UVACO 官方網站(uvaco.com.my)
             </a>
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function DisclaimerModal() {
             {t.discBtnContinue}
           </button>
           <a
-            href="https://www.uvaco.com.tw/"
+            href="https://www.uvaco.com.my/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 px-6 py-3 bg-emerald-800 text-white rounded-full font-bold text-center hover:bg-emerald-900 transition-all shadow-lg"
