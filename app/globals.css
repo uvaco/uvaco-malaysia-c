@@ -117,12 +117,15 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     font-weight: bold;
     transition: all 0.3s ease;
     font-size: 0.9rem;
     color: white;
     text-decoration: none;
+    /* 桌面版：固定寬度讓兩顆按鈕等寬 */
+    width: 168px;
   }
 
   .float-btn:hover {
@@ -137,6 +140,22 @@
   .float-tg {
     background-color: #2aabee;
     box-shadow: 0 10px 25px rgba(42, 171, 238, 0.3);
+  }
+
+  /* 手機版：縮成圓形純 icon */
+  @media (max-width: 639px) {
+    .contact-float {
+      bottom: 80px;
+      right: 16px;
+      gap: 10px;
+    }
+
+    .float-btn {
+      width: 50px;
+      height: 50px;
+      padding: 0;
+      border-radius: 50%;
+    }
   }
 
   /* ── Pulse dot ── */
