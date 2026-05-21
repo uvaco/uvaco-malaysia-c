@@ -9,7 +9,6 @@ import StickyCTA from '@/components/layout/StickyCTA';
 import FloatingButtons from '@/components/ui/FloatingButtons';
 import DisclaimerModal from '@/components/modals/DisclaimerModal';
 import LeadModal from '@/components/modals/LeadModal';
-import ExitIntentModal from '@/components/modals/ExitIntentModal';
 import AutoDisclaimer from '@/components/modals/AutoDisclaimer';
 
 export const metadata: Metadata = {
@@ -188,7 +187,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* Modals */}
             <DisclaimerModal />
             <LeadModal />
-            <ExitIntentModal />
             {/* Auto-open disclaimer on first load */}
             <AutoDisclaimer />
           </ModalProvider>
