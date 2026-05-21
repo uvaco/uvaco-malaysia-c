@@ -42,7 +42,7 @@ export default function DisclaimerModal() {
         <div className="mt-8 flex flex-col sm:flex-row gap-3">
           <button
             onClick={closeDisclaimer}
-            className="flex-1 px-6 py-3 bg-stone-100 text-stone-700 rounded-full font-bold hover:bg-stone-200 transition-all"
+            className="flex-1 px-6 py-3 bg-white text-emerald-800 border-2 border-emerald-800 rounded-full font-bold hover:bg-emerald-50 transition-all"
           >
             {t.discBtnContinue}
           </button>
