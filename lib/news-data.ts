@@ -9,6 +9,30 @@ export interface NewsItem {
 
 export const newsData: NewsItem[] = [
   {
+    src: 'MoneyDJ 理財網',
+    hant: '葡萄王旗下葡眾海外佈局迎全新階段，搶攻大馬商機',
+    hans: '葡萄王旗下葡众海外布局迎全新阶段，抢攻大马商机',
+    en: "Grape King's Pro-Partner Enters New Overseas Phase, Targets Malaysia",
+    ms: 'Pro-Partner Grape King Masuki Fasa Baharu Luar Negara, Sasar Malaysia',
+    link: 'https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=fdbbd6b5-50fa-4df4-ba1b-3c6aaee8186d',
+  },
+  {
+    src: '工商時報',
+    hant: '葡萄王拓海外版圖　進軍馬國',
+    hans: '葡萄王拓海外版图　进军马国',
+    en: 'Grape King Expands Overseas Territory, Enters Malaysian Market',
+    ms: 'Grape King Kembangkan Wilayah Luar Negara, Masuki Pasaran Malaysia',
+    link: 'https://www.ctee.com.tw/news/20260522700270-439901',
+  },
+  {
+    src: '中央社 CNA',
+    hant: 'UVACO葡眾馬來西亞啟動營運　葡萄王國際佈局拚重返高峰',
+    hans: 'UVACO葡众马来西亚启动营运　葡萄王国际布局拚重返高峰',
+    en: 'UVACO Pro-Partner Launches in Malaysia, Grape King Aims for New Peak',
+    ms: 'UVACO Pro-Partner Mula Beroperasi di Malaysia, Grape King Sasar Kemuncak Baharu',
+    link: 'https://www.cna.com.tw/business/chinese/434179',
+  },
+  {
     src: 'Business Weekly',
     hant: '解析葡眾：如何成為台灣直銷界的科技標竿？',
     hans: '解析葡众：如何成为台湾直销界的科技标杆？',
@@ -31,14 +55,6 @@ export const newsData: NewsItem[] = [
     en: 'Pro-Partner Goes Global: Innovative Model Leads Transformation',
     ms: 'Pro-Partner Ke Peringkat Global: Model Inovatif',
     link: 'https://pingtungtimes.com.tw/?p=348385',
-  },
-  {
-    src: '直銷世紀',
-    hant: 'UVACO葡眾品牌全新升級，2026正式啟動大馬市場',
-    hans: 'UVACO葡众品牌全新升级，2026正式启动大马市场',
-    en: 'UVACO Pro-Partner Brand Upgrade, Malaysia 2026 Launch',
-    ms: 'UVACO Pro-Partner Naik Taraf, Pelancaran Malaysia 2026',
-    link: '#',
   },
 ];
 
