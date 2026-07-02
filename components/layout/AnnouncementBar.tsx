@@ -1,7 +1,6 @@
 'use client';
 
 import { useLanguage } from '@/context/LanguageContext';
-import CountdownTimer from '@/components/ui/CountdownTimer';
 
 export default function AnnouncementBar() {
   const { t } = useLanguage();
@@ -15,7 +14,6 @@ export default function AnnouncementBar() {
           </span>
           <p>{t.announcementText}</p>
         </div>
-        <CountdownTimer dark />
       </div>
     </div>
   );

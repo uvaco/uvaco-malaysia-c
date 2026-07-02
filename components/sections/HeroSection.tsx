@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import CountdownTimer from '@/components/ui/CountdownTimer';
 import PulseDot from '@/components/ui/PulseDot';
 
 const COUNTER_URL =
@@ -56,13 +55,6 @@ export default function HeroSection() {
         <p className="text-lg md:text-xl text-emerald-50 max-w-2xl mx-auto mb-8 leading-relaxed drop-shadow-md">
           {t.heroDesc}
         </p>
-
-        <div className="flex flex-col items-center mb-10">
-          <p className="text-emerald-200 text-sm font-medium mb-4 tracking-widest uppercase">
-            {t.countdownLabel}
-          </p>
-          <CountdownTimer dark={false} />
-        </div>
 
         <div className="inline-flex items-center gap-3 bg-white/10 border border-white/20 rounded-full px-6 py-3 shadow-sm mb-10 backdrop-blur-md">
           <PulseDot className="bg-emerald-400" />
